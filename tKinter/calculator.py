@@ -1,53 +1,53 @@
-Use Case Description Describes Everything the App
-Does Step-By-Step
-
-I. User clicks a number button
-
-	N3. With each number button press add the new
-	value to the end of the first and update entry
-
-II. User clicks a math button
-
-	N1. Make sure entry has a value
-	
-	N2. Switch boolean values representing math
-	buttons to false on entry
-	
-	N2. Have Button pass in the math function
-	pressed
-	
-	N4. Store the entry value on entry to this
-	function (Class Field)
-	
-	N4. Clear the entry field?
-
-III. User clicks another number button
-
-IV. User clicks equal button and the result shows
-
-	N1. Make sure a math function was clicked
-	
-	N2. Check which math function was clicked
-	and provide the correct solution
-
-Note 1 : Since every button requires the previous 
-button to have been clicked make sure the click 
-occurred
-
-Note 2 : Make a way to track which math button
-was clicked last
-
-Note 3 : Think about a way to handle the user 
-entering both single numbers and multiple numbers
-
-Note 4 : Track the first number in the entry box
-after a math button is clicked
-
-Note 5 : What about division problems caused by
-an integer division?
-
-	a. Convert to float each time we retrieve, or
-	store values in the entry
+#Use Case Description Describes Everything the App
+#Does Step-By-Step
+#
+#I. User clicks a number button
+#
+#	N3. With each number button press add the new
+#	value to the end of the first and update entry
+#
+#II. User clicks a math button
+#
+#	N1. Make sure entry has a value
+#	
+#	N2. Switch boolean values representing math
+#	buttons to false on entry
+#	
+#	N2. Have Button pass in the math function
+#	pressed
+#	
+#	N4. Store the entry value on entry to this
+#	function (Class Field)
+#	
+#	N4. Clear the entry field?
+#
+#III. User clicks another number button
+#
+#IV. User clicks equal button and the result shows
+#
+#	N1. Make sure a math function was clicked
+#	
+#	N2. Check which math function was clicked
+#	and provide the correct solution
+#
+#Note 1 : Since every button requires the previous 
+#button to have been clicked make sure the click 
+#occurred
+#
+#Note 2 : Make a way to track which math button
+#was clicked last
+#
+#Note 3 : Think about a way to handle the user 
+#entering both single numbers and multiple numbers
+#
+#Note 4 : Track the first number in the entry box
+#after a math button is clicked
+#
+#Note 5 : What about division problems caused by
+#an integer division?
+#
+#	a. Convert to float each time we retrieve, or
+#	store values in the entry
 
 from tkinter import *
 from tkinter import ttk
